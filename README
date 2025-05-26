@@ -1,0 +1,33 @@
+
+---
+
+## 🐶 `README.md` for **My Dogs**
+
+```markdown
+# My Dogs
+
+Simple Android app that displays dog breeds and their details.
+
+## Features
+
+- List of dog breeds
+- Detailed view with breed image, origin, and lifespan
+- Clean MVVM architecture
+
+## Screenshots
+## NOT AVAILABLE
+
+## Tech Stack
+
+- **Language**: Kotlin
+- **UI**: XML
+- **Architecture**: MVVM
+- **Networking**: Retrofit
+- **Image Loading**: Glide
+- **Navigation**: Jetpack Navigation Component
+
+## Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/ogunjembola/My_Dogs.git
