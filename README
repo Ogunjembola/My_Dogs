@@ -1,18 +1,13 @@
-
----
-
-## 🐶 `README.md` for **My Dogs**
-
-```markdown
 # My Dogs
 
-Simple Android app that displays dog breeds and their details.
+Android app that displays a list of dog breeds and shows detailed information for each breed. Built with Kotlin using MVVM architecture and Jetpack components.
 
 ## Features
 
-- List of dog breeds
-- Detailed view with breed image, origin, and lifespan
-- Clean MVVM architecture
+- Fetches a list of dog breeds from API
+- Shows breed details (name, lifespan, origin, image)
+- Simple, clean UI
+- Follows modern Android architecture
 
 ## Screenshots
 ## NOT AVAILABLE
@@ -20,14 +15,23 @@ Simple Android app that displays dog breeds and their details.
 ## Tech Stack
 
 - **Language**: Kotlin
-- **UI**: XML
+- **UI**: XML layouts
 - **Architecture**: MVVM
 - **Networking**: Retrofit
 - **Image Loading**: Glide
 - **Navigation**: Jetpack Navigation Component
+- **Lifecycle**: ViewModel + LiveData
 
-## Installation
+## Getting Started
 
-1. Clone the repo:
+### Prerequisites
+
+- Android Studio Hedgehog or newer
+- Minimum SDK 24
+- Internet access (app fetches data from an external API)
+
+### Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/ogunjembola/My_Dogs.git
